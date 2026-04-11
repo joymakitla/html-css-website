@@ -6,11 +6,11 @@
 - Styled using CSS
 Multiple-page responsive website built with HTML and CSS
 
-[index.html](https://github.com/user-attachments/files/26641357/index.html)
-[event-detail.html](https://github.com/user-attachments/files/26641358/event-detail.html)
-[participants.html](https://github.com/user-attachments/files/26641361/participants.html)
 [contact.html](https://github.com/user-attachments/files/26641367/contact.html)
+[participants.html](https://github.com/user-attachments/files/26641361/participants.html)
+[event-detail.html](https://github.com/user-attachments/files/26641358/event-detail.html)
 [style.css](https://github.com/user-attachments/files/26641374/style.css)
+[index.html](https://github.com/user-attachments/files/26641357/index.html)
 
 * {
     margin: 0;
@@ -379,7 +379,7 @@ Multiple-page responsive website built with HTML and CSS
 </head>
 <body>
     <header>
-        <img src="images/Logo.png" alt="LUL Logo" class="logo">
+        <img src="images/imagesLogo.png" alt="LUL Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -420,10 +420,10 @@ Multiple-page responsive website built with HTML and CSS
     <section class="socials">
         <h3>Follow Us On</h3>
         <div class="social-icons">
-          <a href="#"><img src="images/insta.jpeg" alt="Instagram" /></a>
-          <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
-          <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
-          <a href="#"><img src="images/tiktok_PNG3.png" alt="TikTok" /></a>
+          <a href="#"><img src="images/images/insta.jpeg" alt="Instagram" /></a>
+          <a href="#"><img src="images/images/twitter.png" alt="Twitter" /></a>
+          <a href="#"><img src="images/images/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="images/images/tiktok_PNG3.png" alt="TikTok" /></a>
         </div>
       </section>
     
