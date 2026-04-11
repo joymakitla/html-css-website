@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participants- Laced Up Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="LUL Logo" class="logo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event-detail.html">Event Details</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main class="event-container">
+        <h2>Organizers</h2>
+        <p><strong>Event Name:</strong> Laced Up Legends: Detroit</p>
+        <p><strong>Hosted by:</strong> Paul Wall</p>
+    
+        <h2>About the Organizers</h2>
+        <ul>
+          <li>A nonprofit dedicated to promoting sneaker culture in the community.</li>
+          <li>With a passion for bringing people together, the team ensures unforgettable experiences for all attendees.</li>
+          <li><strong>Key Contacts:</strong> Jane Doe – Event Director (jane@gmail.com), John Smith – Logistics Manager</li>
+        </ul>
+    
+        <h2>Performers</h2>
+        <ul>
+          <li><strong>Headlining Act:</strong> DJ Maphorisa spinning deep house and Amapiano</li>
+        </ul>
+    
+        <h2>Vendors</h2>
+        <ul>
+          <li>DJ Luna</li>
+          <li>Jane Doe</li>
+          <li>John Smith</li>
+        </ul>
+      </main>
+    
+      <footer>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="event-detail.html">Events</a>
+          <a href="participants.html">Participants</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="copyright">
+          &copy; 2025 Laced Up Legends. All rights reserved.
+        </div>
+      </footer>
+    </body>
+</body>
+</html>
