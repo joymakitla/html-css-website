@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laced Up Legends - Crown Your Kicks. Rule the Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="LUL Logo" class="logo">
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event-detail.html">Event Details</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <video autoplay muted loop class="background-video">
+                <source src="images/video.m4v" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="hero-content">
+            <h1>Welcome to Laced Up Legends</h1>
+            <p>The ultimate arena for sneaker royalty to buy, sell, and trade the most coveted kicks in the game.</p>
+            <a href="event-detail.html" class="cta-button">Explore Event Details</a>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Event Highlights</h2>
+            <div class="image-grid">
+              <img src="images/Screenshot 2025-04-21 185503.png" alt="Sneaker Event 1">
+              <img src="images/sneakercon-denver-apirl-26-2025.jpg" alt="Sneaker Event 2">
+              
+        </div>  
+        </section>
+    </main>
+
+    <section class="socials">
+        <h3>Follow Us On</h3>
+        <div class="social-icons">
+          <a href="#" target="_blank"><img src="images/insta.jpeg" alt="Instagram" /></a>
+          <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
+          <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+          <a href="#" target="_blank"><img src="images/tiktok_PNG3.png" alt="TikTok" /></a>
+        </div>
+      </section>
+
+    <footer>
+        <p>&copy; 2025 Laced Up Legends. All rights reserved.</p>
+    </footer>
+</body>
+</html>
