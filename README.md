@@ -12,7 +12,9 @@ This project is a multi-page website developed using HTML and CSS.
 https://joymakitla.github.io/Web-Development-Project/
 
 ## 📷 Preview
-![Homepage]<img width="1915" height="1017" alt="screenshot 1" src="https://github.com/user-attachments/assets/fc13efcc-53cd-4217-97cc-9e4e442467f3" />
-<img width="1915" height="1017" alt="screenshot 1" src="https://github.com/user-attachments/assets/954585fb-3acb-416d-9eac-dd8b8db9fbd5" />
+Homepage
+<img width="1915" height="1017" alt="screenshot 1" src="https://github.com/user-attachments/assets/9d7b735a-2bd5-49e5-8027-174c5a2a2944" />
+<img width="1918" height="1012" alt="screenshot 2" src="https://github.com/user-attachments/assets/50e24b85-946e-4d6e-84c5-9a99f106d11a" />
+
 
             
