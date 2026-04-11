@@ -12,4 +12,5 @@ This project is a multi-page website developed using HTML and CSS.
 https://joymakitla.github.io/Web-Development-Project/
 
 ## 📷 Preview
-![Homepage](images/images/
+![Homepage](images/images/screenshot 1)(images/images/screenshot 2)
+            
