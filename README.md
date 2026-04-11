@@ -6,11 +6,74 @@
 - Styled using CSS
 Multiple-page responsive website built with HTML and CSS
 
-[contact.html](https://github.com/user-attachments/files/26641367/contact.html)
-[participants.html](https://github.com/user-attachments/files/26641361/participants.html)
-[event-detail.html](https://github.com/user-attachments/files/26641358/event-detail.html)
-[style.css](https://github.com/user-attachments/files/26641374/style.css)
-[index.html](https://github.com/user-attachments/files/26641357/index.html)
+[contact.html](https://github.com/user-attachments/files/26648932/contact.html)
+[participants.html](https://github.com/user-attachments/files/26648933/participants.html)
+[event-detail.html](https://github.com/user-attachments/files/26648935/event-detail.html)
+[style.css](https://github.com/user-attachments/files/26648937/style.css)
+[index.html](https://github.com/user-attachments/files/26648948/index.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laced Up Legends - Crown Your Kicks. Rule the Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/images/Logo.png" alt="LUL Logo" class="logo">
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event-detail.html">Event Details</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <video autoplay muted loop class="background-video">
+                <source src="images/images/video.m4v" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="hero-content">
+            <h1>Welcome to Laced Up Legends</h1>
+            <p>The ultimate arena for sneaker royalty to buy, sell, and trade the most coveted kicks in the game.</p>
+            <a href="event-detail.html" class="cta-button">Explore Event Details</a>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Event Highlights</h2>
+            <div class="image-grid">
+              <img src="images/images/Screenshot 2025-04-21 185503.png" alt="Sneaker Event 1">
+              <img src="images/images/sneakercon-denver-apirl-26-2025.jpg" alt="Sneaker Event 2">
+              
+        </div>  
+        </section>
+    </main>
+
+    <section class="socials">
+        <h3>Follow Us On</h3>
+        <div class="social-icons">
+          <a href="#" target="_blank"><img src="images/images/insta.jpeg" alt="Instagram" /></a>
+          <a href="#" target="_blank"><img src="images/images/twitter.png" alt="Twitter" /></a>
+          <a href="#" target="_blank"><img src="images/images/facebook.png" alt="Facebook" /></a>
+          <a href="#" target="_blank"><img src="images/images/tiktok_PNG3.png" alt="TikTok" /></a>
+        </div>
+      </section>
+
+    <footer>
+        <p>&copy; 2025 Laced Up Legends. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
 
 * {
     margin: 0;
@@ -369,6 +432,143 @@ Multiple-page responsive website built with HTML and CSS
     }
   }
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details - Laced Up Legends</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <header>
+        <img src="images/images/Logo.png" alt="LUL Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event-detail.html">Event Details</a></li>
+                <li><a href="participants.html">Participants</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="event-container">
+          <h2>Upcoming Events</h2>
+    
+          <div class="event-banner">
+            <img src="images/images/sneakercon-denver-apirl-26-2025.jpg" alt="Sneaker Con Denver April 26th 2025">
+          </div>
+    
+          <div class="event-card">
+            <h1>Laced Up Legends: Denver</h1>
+            <h2>April 26th, 2025</h2>
+            <p>Colorado Convention Center, 700 14th St, Denver, CO 80202</p>
+            <div class="event-actions">
+              <a href="#">Become a vendor</a>
+              <a href="#">More info</a>
+              <a href="#">Buy Tickets</a>
+            </div>
+          </div>
+    
+          <div class="event-banner">
+            <img src="images/images/Screenshot 2025-04-21 185503.png" alt="Sneaker Con Detroit June 14th 2025">
+          </div>
+    
+          <div class="event-card">
+            <h1>Laced Up Legends: Detroit</h1>
+            <h2>June 14th, 2025</h2>
+            <p>Huntington Place Convention Center, 1 Washington Blvd, Detroit, MI 48226</p>
+            <div class="event-actions">
+              <a href="#">Become a vendor</a>
+              <a href="#">More info</a>
+              <a href="#">Buy Tickets</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    
+      <footer>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="event-detail.html">Events</a>
+          <a href="participants.html">Participants</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="copyright">
+          &copy; 2025 Laced Up Legends. All rights reserved.
+        </div>
+      </footer>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participants- Laced Up Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/images/Logo.png" alt="LUL Logo" class="logo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event-detail.html">Event Details</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main class="event-container">
+        <h2>Organizers</h2>
+        <p><strong>Event Name:</strong> Laced Up Legends: Detroit</p>
+        <p><strong>Hosted by:</strong> Paul Wall</p>
+    
+        <h2>About the Organizers</h2>
+        <ul>
+          <li>A nonprofit dedicated to promoting sneaker culture in the community.</li>
+          <li>With a passion for bringing people together, the team ensures unforgettable experiences for all attendees.</li>
+          <li><strong>Key Contacts:</strong> Jane Doe – Event Director (jane@gmail.com), John Smith – Logistics Manager</li>
+        </ul>
+    
+        <h2>Performers</h2>
+        <ul>
+          <li><strong>Headlining Act:</strong> DJ Maphorisa spinning deep house and Amapiano</li>
+        </ul>
+    
+        <h2>Vendors</h2>
+        <ul>
+          <li>DJ Luna</li>
+          <li>Jane Doe</li>
+          <li>John Smith</li>
+        </ul>
+      </main>
+    
+      <footer>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="event-detail.html">Events</a>
+          <a href="participants.html">Participants</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="copyright">
+          &copy; 2025 Laced Up Legends. All rights reserved.
+        </div>
+      </footer>
+    </body>
+</body>
+</html>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -379,7 +579,7 @@ Multiple-page responsive website built with HTML and CSS
 </head>
 <body>
     <header>
-        <img src="images/imagesLogo.png" alt="LUL Logo" class="logo">
+        <img src="images/images/Logo.png" alt="LUL Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -430,197 +630,5 @@ Multiple-page responsive website built with HTML and CSS
       <footer>
         <p>&copy; 2025 Laced Up Legends. All rights reserved.</p>
       </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Participants- Laced Up Legends</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img src="images/Logo.png" alt="LUL Logo" class="logo">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="event-detail.html">Event Details</a></li>
-            <li><a href="participants.html">Participants</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    
-      <main class="event-container">
-        <h2>Organizers</h2>
-        <p><strong>Event Name:</strong> Laced Up Legends: Detroit</p>
-        <p><strong>Hosted by:</strong> Paul Wall</p>
-    
-        <h2>About the Organizers</h2>
-        <ul>
-          <li>A nonprofit dedicated to promoting sneaker culture in the community.</li>
-          <li>With a passion for bringing people together, the team ensures unforgettable experiences for all attendees.</li>
-          <li><strong>Key Contacts:</strong> Jane Doe – Event Director (jane@gmail.com), John Smith – Logistics Manager</li>
-        </ul>
-    
-        <h2>Performers</h2>
-        <ul>
-          <li><strong>Headlining Act:</strong> DJ Maphorisa spinning deep house and Amapiano</li>
-        </ul>
-    
-        <h2>Vendors</h2>
-        <ul>
-          <li>DJ Luna</li>
-          <li>Jane Doe</li>
-          <li>John Smith</li>
-        </ul>
-      </main>
-    
-      <footer>
-        <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="event-detail.html">Events</a>
-          <a href="participants.html">Participants</a>
-          <a href="contact.html">Contact</a>
-        </div>
-        <div class="copyright">
-          &copy; 2025 Laced Up Legends. All rights reserved.
-        </div>
-      </footer>
-    </body>
-</body>
-</html>
-<!DOCTYPE html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Details - Laced Up Legends</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-    
-    <header>
-        <img src="images/Logo.png" alt="LUL Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="event-detail.html">Event Details</a></li>
-                <li><a href="participants.html">Participants</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <div class="event-container">
-          <h2>Upcoming Events</h2>
-    
-          <div class="event-banner">
-            <img src="images/sneakercon-denver-apirl-26-2025.jpg" alt="Sneaker Con Denver April 26th 2025">
-          </div>
-    
-          <div class="event-card">
-            <h1>Laced Up Legends: Denver</h1>
-            <h2>April 26th, 2025</h2>
-            <p>Colorado Convention Center, 700 14th St, Denver, CO 80202</p>
-            <div class="event-actions">
-              <a href="#">Become a vendor</a>
-              <a href="#">More info</a>
-              <a href="#">Buy Tickets</a>
-            </div>
-          </div>
-    
-          <div class="event-banner">
-            <img src="images/Screenshot 2025-04-21 185503.png" alt="Sneaker Con Detroit June 14th 2025">
-          </div>
-    
-          <div class="event-card">
-            <h1>Laced Up Legends: Detroit</h1>
-            <h2>June 14th, 2025</h2>
-            <p>Huntington Place Convention Center, 1 Washington Blvd, Detroit, MI 48226</p>
-            <div class="event-actions">
-              <a href="#">Become a vendor</a>
-              <a href="#">More info</a>
-              <a href="#">Buy Tickets</a>
-            </div>
-          </div>
-        </div>
-      </main>
-    
-      <footer>
-        <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="event-detail.html">Events</a>
-          <a href="participants.html">Participants</a>
-          <a href="contact.html">Contact</a>
-        </div>
-        <div class="copyright">
-          &copy; 2025 Laced Up Legends. All rights reserved.
-        </div>
-      </footer>
-    </body>
-</html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laced Up Legends - Crown Your Kicks. Rule the Drop</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <img src="images/Logo.png" alt="LUL Logo" class="logo">
-        <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="event-detail.html">Event Details</a></li>
-            <li><a href="participants.html">Participants</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <video autoplay muted loop class="background-video">
-                <source src="images/video.m4v" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-              <div class="hero-content">
-            <h1>Welcome to Laced Up Legends</h1>
-            <p>The ultimate arena for sneaker royalty to buy, sell, and trade the most coveted kicks in the game.</p>
-            <a href="event-detail.html" class="cta-button">Explore Event Details</a>
-            </div>
-        </section>
-
-        <section class="gallery">
-            <h2>Event Highlights</h2>
-            <div class="image-grid">
-              <img src="images/Screenshot 2025-04-21 185503.png" alt="Sneaker Event 1">
-              <img src="images/sneakercon-denver-apirl-26-2025.jpg" alt="Sneaker Event 2">
-              
-        </div>  
-        </section>
-    </main>
-
-    <section class="socials">
-        <h3>Follow Us On</h3>
-        <div class="social-icons">
-          <a href="#" target="_blank"><img src="images/insta.jpeg" alt="Instagram" /></a>
-          <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
-          <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
-          <a href="#" target="_blank"><img src="images/tiktok_PNG3.png" alt="TikTok" /></a>
-        </div>
-      </section>
-
-    <footer>
-        <p>&copy; 2025 Laced Up Legends. All rights reserved.</p>
-    </footer>
 </body>
 </html>
