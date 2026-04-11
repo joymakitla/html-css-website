@@ -11,7 +11,6 @@ Multiple-page responsive website built with HTML and CSS
 [participants.html](https://github.com/user-attachments/files/26641361/participants.html)
 [contact.html](https://github.com/user-attachments/files/26641367/contact.html)
 [style.css](https://github.com/user-attachments/files/26641374/style.css)
-images/.gitkeep
 
 * {
     margin: 0;
