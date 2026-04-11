@@ -10,3 +10,6 @@ This project is a multi-page website developed using HTML and CSS.
 
 ## 🌐 Live Demo
 https://joymakitla.github.io/Web-Development-Project/
+
+## 📷 Preview
+![Homepage](images/images/
